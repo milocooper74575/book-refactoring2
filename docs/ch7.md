@@ -1263,7 +1263,7 @@ get manager() {return this._department.manager;}
 #### 客户端代码...
 
 ```js
-manager = aPerson.department.manager;
+manager = aPerson.manager();
 ```
 
 只要完成了对 Department 所有函数的修改，并相应修改了 Person 的所有客户端，我就可以移除 Person 中的 department 访问函数了。
